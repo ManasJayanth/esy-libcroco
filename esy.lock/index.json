@@ -1,0 +1,37 @@
+{
+  "checksum": "69381557bc3969805f443c39422b67dc",
+  "root": "esy-libcroco-0.6.13@link-dev:./package.json",
+  "node": {
+    "esy-libxml2@github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f@d41d8cd9": {
+      "id":
+        "esy-libxml2@github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f@d41d8cd9",
+      "name": "esy-libxml2",
+      "version":
+        "github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-libcroco-0.6.13@link-dev:./package.json": {
+      "id": "esy-libcroco-0.6.13@link-dev:./package.json",
+      "name": "esy-libcroco-0.6.13",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [
+        "esy-libxml2@github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f@d41d8cd9"
+      ],
+      "devDependencies": []
+    }
+  }
+}
